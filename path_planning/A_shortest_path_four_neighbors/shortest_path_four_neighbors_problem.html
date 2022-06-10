@@ -1,0 +1,39 @@
+<html>
+<body>
+    <h2>４近傍での最短経路</h2>
+    <h3>問題</h3>
+    <p>
+        縦 <var>H</var> マス，横 <var>W</var> マスからなる作業空間がある．
+        上から <var>i</var> 行目，左から <var>j</var> 列目のマス( <var>i,j</var> )は， 
+        <var>S<sub>ij</sub></var> が <code>#</code> のとき壁であり
+        <code>.</code> のとき道である．
+        移動ロボットは縦か横に隣接しているマスが道の時にそこへ動くことができる．
+        いまロボットがマス( <var>C<sub>h</sub>, C<sub>w</sub></var> )にあるとする．
+        ロボットがマス( <var>D<sub>h</sub>, D<sub>w</sub></var> )に移動するには，最小でいくつのマスを経由する必要があるか求めよ．
+    </p>
+    <h3>制約</h3>
+    <ul>
+        <li><var>1 &le; H, W &le; 1,000 </var></li>
+        <li><var>1 &le; C<sub>h</sub>, D<sub>h</sub> &le; H </var></li>
+        <li><var>1 &le; C<sub>w</sub>, D<sub>w</sub> &le; W </var></li>
+        <li>上の値はすべて整数</li>
+        <li><var>S<sub>ij</sub></var>は<code>.</code>か<code>#</code></li>
+        <li><var>S<sub>C<sub>h</sub>C<sub>w</sub></sub></var>と<var>S<sub>D<sub>h</sub>D<sub>w</sub></sub></var>は<code>.</code></li>
+        </ul>
+    <h3>入力</h3>
+    <p>
+        入力は以下の形式で標準入力から与えられる
+    </p>
+    <ul>
+        <li><var>H</var> <var>W</var></li>
+        <li><var>C<sub>h</sub></var> <var>C<sub>w</sub></var> <var>D<sub>h</sub></var> <var>D<sub>w</sub></var></li>
+        <li><var>S<sub>11</sub> &hellip; S<sub>1W</sub></var></li>
+        <li><var>&vellip; </var></li>
+        <li><var>S<sub>H1</sub> &hellip; S<sub>HW</sub></var></li>
+    </ul>
+    <h3>出力</h3>
+    <p>
+        (<var>C<sub>h</sub>, C<sub>w</sub></var>)から(<var>D<sub>h</sub>, D<sub>w</sub></var>)への最短経路長を出力せよ．経路が存在しないときは-1を出力せよ
+    </p>
+</body>
+</html>

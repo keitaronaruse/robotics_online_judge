@@ -1,0 +1,1 @@
+add_executable( astar-maze astar-maze.cpp )

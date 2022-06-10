@@ -1,0 +1,1 @@
+add_executable( dijkstra-maze dijkstra-maze.cpp )
