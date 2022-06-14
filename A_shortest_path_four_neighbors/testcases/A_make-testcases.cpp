@@ -1,8 +1,8 @@
 /**
- * @file make-testcases-maze2D.cpp
- * @brief Make test cases for 2D maze
+ * @file A_make-testcases.cpp
+ * @brief Make testcases of the problem A
  * @author Keitaro Naruse
- * @date 2022-06-07
+ * @date 2022-06-14
  * @copyright MIT License
  */
 
