@@ -1,5 +1,5 @@
 /**
- * @file A_make-testcases.cpp
+ * @file A-make-in-files.cpp
  * @brief Make testcases of the problem A
  * @author Keitaro Naruse
  * @date 2022-06-14
