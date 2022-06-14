@@ -1,4 +1,21 @@
 <html>
+    <style>
+        code {
+            font-family: Consolas,"courier new";
+            color: darkgreen;
+            padding: 2px;
+            font-size: 100%;
+        }
+        pre {
+            margin: 1em 0;
+            padding: 1em;
+            border-radius: 5px;
+            background: lightgray;
+            display: block;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+    </style>
 <body>
     <h2>４近傍での最短経路</h2>
     <h3>問題</h3>
@@ -35,5 +52,49 @@
     <p>
         (<var>C<sub>h</sub>, C<sub>w</sub></var>)から(<var>D<sub>h</sub>, D<sub>w</sub></var>)への最短経路長を出力せよ．経路が存在しないときは-1を出力せよ
     </p>
+    <h3>入力例 1</h3>
+<pre>
+4 5
+1 1 4 5
+.#...
+.#.#.
+.#.#.
+...#.
+</pre>
+    <h3>出力例 1</h3>
+<pre>
+13
+</pre>
+
+<h3>入力例 2</h3>
+<pre>
+4 5
+1 1 4 5
+.....
+.....
+.....
+.....
+</pre>
+    <h3>出力例 2</h3>
+<pre>
+7
+</pre>
+</pre>
+<h3>入力例 3</h3>
+<pre>
+4 5
+1 1 4 5
+.....
+.....
+.....
+....#
+...#.
+</pre>
+    <h3>出力例 3</h3>
+<pre>
+-1
+</pre>
+<p>経路が存在しない場合もあります．</p>
+
 </body>
 </html>
